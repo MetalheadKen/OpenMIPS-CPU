@@ -1,0 +1,91 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim -gui F:\OpenMIPS_Share\OenMIPS_CPU\Five_Stages_PipeLine\openmips_min_sopc_simulation\openmips_min_sopc.mpf 
+# Start time: 01:19:15 on Sep 09,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+quit -sim
+vsim work.openmips_min_sopc_tb
+# vsim 
+# Start time: 01:19:38 on Sep 09,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+quit -sim
+vsim work.openmips_min_sopc_tb
+# vsim 
+# Start time: 01:19:56 on Sep 09,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 1195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# End time: 01:23:24 on Sep 09,2016, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 1

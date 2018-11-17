@@ -1,0 +1,27 @@
+ command line:
+   ./inst_fetch_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  65398
+
+Sat Aug 27 02:55:43 2016
+
+WARNING:Simulator:433 - Module glbl has a `timescale directive but previous
+   modules do not.
+Total Line Count = 70
+
+ Elaboration time 0.0156 sec.
+
+ Estimate current memory usage 74.7684 Meg. 
+
+ Total signals 21
+ Total nets 49
+ Total signal drivers 8
+ Total blocks 5
+ Total primitive blocks 3
+ Total processes 13
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

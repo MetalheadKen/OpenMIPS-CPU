@@ -1,0 +1,557 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v failed with 3 errors.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v failed with 1 errors.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v failed with 1 errors.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v failed with 15 errors.
+# 20 compiles, 5 failed with 22 errors.
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v failed with 1 errors.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v failed with 1 errors.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 3 failed with 3 errors.
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim -gui F:\OpenMIPS_Share\OenMIPS_CPU\Five_Stages_PipeLine\openmips_min_sopc_simulation\openmips_min_sopc.mpf 
+# Start time: 02:15:34 on Sep 29,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(25): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Error: (vsim-3063) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(275): Port 'wb_cp0_reg_write_addr_i' not found in the connected module (17th connection).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(352): [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_cp0_reg_we'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(399): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+# Error loading design
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim 
+# Start time: 02:16:31 on Sep 29,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(25): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(52).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(425): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/count_o \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/timer_int_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/status_o
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]}
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(25): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(52).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(425): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(63): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(52).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(425): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(85).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(50)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 50
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(63): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(52).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(425): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(85).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(568): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(50)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 50
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(25): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(352): [PCDPC] - Port size (1) does not match connection size (32) for port 'mem_cp0_reg_we'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(399): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of cp0_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(25): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(275): [PCDPC] - Port size (5) does not match connection size (1) for port 'cp0_reg_read_addr_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(399): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# ** Warning: (vsim-3017) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Too few port connections. Expected 16, found 9.
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'count_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'compare_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'status_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'cause_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'epc_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'config_o'.
+# 
+# ** Warning: (vsim-3722) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(544): [TFMPC] - Missing connection for port 'prid_o'.
+# 
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 4295 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# End time: 02:51:41 on Sep 29,2016, Elapsed time: 0:35:10
+# Errors: 4, Warnings: 63

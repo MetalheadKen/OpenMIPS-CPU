@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="905" delta="unknown" >&quot;<arg fmt="%s" index="1">pc_reg.v</arg>&quot; line <arg fmt="%d" index="2">20</arg>: The signals &lt;<arg fmt="%s" index="3">ce</arg>&gt; are missing in the sensitivity list of always block.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="unknown" >&quot;<arg fmt="%s" index="1">rom.v</arg>&quot; line <arg fmt="%d" index="2">11</arg>: reading initialization file &quot;<arg fmt="%s" index="3">rom.data</arg>&quot;.
+</msg>
+
+<msg type="error" file="Xst" num="2353" delta="unknown" >&quot;<arg fmt="%s" index="1">rom.v</arg>&quot; line <arg fmt="%d" index="2">11</arg>: Address <arg fmt="%d" index="3">-1</arg> is invalid in call of system task <arg fmt="%s" index="4">$readmemh</arg>.
+</msg>
+
+</messages>

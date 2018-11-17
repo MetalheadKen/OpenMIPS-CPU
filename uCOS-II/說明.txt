@@ -1,0 +1,13 @@
+﻿本目錄下是可以下載到DE2上的flash的ucosii檔案，make可以得到OS.bin、ucosii.asm檔案，各檔案說明如下：
+
+（1）OS.bin是可以下載到flash中的二進制檔案，包含BootLoader部分，注意：在燒錄flash之前，需要先erase整個flash，然後再write
+
+（2）ucosii.asm是對應的反組譯檔案，不含BootLoader部分。
+
+編譯需要的BootLoader位於BootLoader_DE2目錄下。
+
+ucos 	－ 包含 ucos-II 的 Source Code 文件
+port 	－ 包含針對特定硬體平台的移植文件
+include － 包含相關標頭文件
+common  － 包含用於測試的主任務
+

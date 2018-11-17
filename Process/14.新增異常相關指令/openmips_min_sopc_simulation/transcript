@@ -1,0 +1,747 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of regfile.v was successful.
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim -gui F:\OpenMIPS_Share\OenMIPS_CPU\Five_Stages_PipeLine\openmips_min_sopc_simulation\openmips_min_sopc.mpf 
+# Start time: 22:22:47 on Oct 04,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'rom_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(187): [PCDPC] - Port size (1) does not match connection size (4) for port 'ce'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc_reg0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(455): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst
+# can't read "vsimPriv(.main_pane.wave.interior.cs.body.pw.wf:current_tree)": no such element in array
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_pc
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]}
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 10195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# Compile of regfile.v was successful.
+# Compile of cp0_reg.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_ram.v was successful.
+# Compile of defines.v was successful.
+# Compile of div.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of LLbit_reg.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# 20 compiles, 0 failed with no errors.
+restart
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.ctrl
+# Loading work.div
+# Loading work.LLbit_reg
+# Loading work.cp0_reg
+# Loading work.inst_rom
+# Loading work.data_ram
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'rom_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(187): [PCDPC] - Port size (1) does not match connection size (4) for port 'ce'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc_reg0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(455): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 10195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/re2
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]}
+restart
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'rom_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(187): [PCDPC] - Port size (1) does not match connection size (4) for port 'ce'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc_reg0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(455): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 10195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/timer_int_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/timer_int_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cp0_reg0/compare_o
+restart
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'rom_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v(26): [PCDPC] - Port size (4) does not match connection size (1) for port 'ram_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(5).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(187): [PCDPC] - Port size (1) does not match connection size (4) for port 'ce'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v(4).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc_reg0
+# ** Warning: (vsim-3015) F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v(455): [PCDPC] - Port size (1) does not match connection size (4) for port 'mem_ce_o'. The port definition is at: F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v(6).
+# 
+#         Region: /openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem0
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 10195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+# End time: 22:33:10 on Oct 04,2016, Elapsed time: 0:10:23
+# Errors: 1, Warnings: 17

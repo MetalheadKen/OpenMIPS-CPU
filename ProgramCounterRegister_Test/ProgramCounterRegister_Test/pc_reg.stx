@@ -1,0 +1,24 @@
+Release 8.2.03i - xst I.34
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.09 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "pc_reg.v" in library work
+Module <pc_reg> compiled
+No errors in compilation
+Analysis of file <"pc_reg.prj"> succeeded.
+ 
+CPU : 0.01 / 0.10 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 160904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

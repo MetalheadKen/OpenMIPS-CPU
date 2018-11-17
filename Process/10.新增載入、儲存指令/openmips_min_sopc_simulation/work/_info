@@ -1,0 +1,350 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/altera/15.0
+vctrl
+Z0 !s110 1474671196
+!i10b 1
+!s100 ka=:>8`Ud7W9aWFYAKLL>0
+I^L]JImlD5YZ:k]6ROg>aH3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation
+w1473269906
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ctrl.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ctrl.v
+L0 4
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1474671196.552000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ctrl.v|
+!i113 1
+Z4 o-work work
+vdata_ram
+!s110 1474671197
+!i10b 1
+!s100 Dj1B_l6Yl_`bYG`O<njZe2
+I8oKjKGNAU3HoVz51EMOPH2
+R1
+R2
+w1474659347
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/data_ram.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/data_ram.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671197.062000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/data_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/data_ram.v|
+!i113 1
+R4
+vdiv
+R0
+!i10b 1
+!s100 >]D<RYZz;8MPScD8IBnG31
+I:P76L@jMOb:D[W?<7Z[mn2
+R1
+R2
+w1473458228
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/div.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/div.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671196.834000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/div.v|
+!i113 1
+R4
+vex
+Z5 !s110 1474671192
+!i10b 1
+!s100 7R?i`kUC55J_P65kflak>1
+I>^CM?JFXKfbTU=hL;4CW20
+R1
+R2
+w1474664827
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671192.570000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex.v|
+!i113 1
+R4
+vex_mem
+R5
+!i10b 1
+!s100 L6QPhf5RjTMG=klRf[GIe3
+I[Q5zWO<Q43VWOOIE;[?AC2
+R1
+R2
+w1473871800
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671192.833000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/ex_mem.v|
+!i113 1
+R4
+vhilo_reg
+Z6 !s110 1474671193
+!i10b 1
+!s100 PT0L^9MC>`0kISFeHF:MV1
+IPCf<]=PWh9JCE16LoM0RI1
+R1
+R2
+w1473079786
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/hilo_reg.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/hilo_reg.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671193.078000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/hilo_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/hilo_reg.v|
+!i113 1
+R4
+vid
+R6
+!i10b 1
+!s100 U8Dh<==fU<U_gPLYRe06l2
+IY2d=5HBd[[J:?XGiWCHOg0
+R1
+R2
+w1474670957
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1474671193.341000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id.v|
+!i113 1
+R4
+vid_ex
+R6
+!i10b 1
+!s100 >z_l6Y2aHnI6?0=OEBKJC3
+I2izUJf8RhUkkgY5DHOB4L1
+R1
+R2
+w1473869002
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id_ex.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id_ex.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671193.595000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id_ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/id_ex.v|
+!i113 1
+R4
+vif_id
+R6
+!i10b 1
+!s100 Z4IVLZXlY@X4]2Pm2acg50
+IlK4UhLzIJj0Z9a[2IG>L;0
+R1
+R2
+w1473275099
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/if_id.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/if_id.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671193.872000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/if_id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/if_id.v|
+!i113 1
+R4
+vinst_rom
+Z7 !s110 1474671194
+!i10b 1
+!s100 =KMnZ6?[Mh];Y0o]:ZgdV2
+INS[CmJ>fROgTXFIzF[^kX0
+R1
+R2
+w1472804902
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/inst_rom.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/inst_rom.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671194.106000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/inst_rom.v|
+!i113 1
+R4
+vmem
+R7
+!i10b 1
+!s100 >XFbk3hi`JIfa8f5STm:C2
+I^UR0BDai85?]4;GcJ7i>R3
+R1
+R2
+w1474664375
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671194.612000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem.v|
+!i113 1
+R4
+vmem_wb
+R7
+!i10b 1
+!s100 cz>GMX_?h@PgDlA3IGWe21
+I`d1R9X^A1MzgFPo9M[Me33
+R1
+R2
+w1473278526
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem_wb.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem_wb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671194.863000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/mem_wb.v|
+!i113 1
+R4
+vopenmips
+Z8 !s110 1474671195
+!i10b 1
+!s100 SM5fBPGbCF9Ez8IoGR`JT1
+I5KO>C7c`zU?<M8ERV4o2]2
+R1
+R2
+w1474671047
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671195.131000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips.v|
+!i113 1
+R4
+vopenmips_min_sopc
+R8
+!i10b 1
+!s100 Y]em8_?[L>FMC3kR>5UNi3
+I3P<m4Z?^U3kQ7LAgCD2093
+R1
+R2
+w1474660958
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671195.353000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.v|
+!i113 1
+R4
+vopenmips_min_sopc_tb
+R8
+!i10b 1
+!s100 MF`S7Hiaa[UP?h57e^n_A0
+IPleIQ`HURE<DZO<OVhVSc2
+R1
+R2
+w1473460080
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1474671195.603000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v|
+!i113 1
+R4
+vpc_reg
+R8
+!i10b 1
+!s100 JfTVN84=_XE5=RQfz]b>71
+IYWT?WQMR>^=k`ko1ZJMVT0
+R1
+R2
+w1473586511
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1474671195.879000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/pc_reg.v|
+!i113 1
+R4
+vregfile
+R0
+!i10b 1
+!s100 @aHJ506P6S:HYoBG;dC@30
+IlQL9[dhU5HWY6_kad=`e<1
+R1
+R2
+w1472922304
+8F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/regfile.v
+FF:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/regfile.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1474671196.135000
+!s107 defines.v|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/regfile.v|
+!i113 1
+R4

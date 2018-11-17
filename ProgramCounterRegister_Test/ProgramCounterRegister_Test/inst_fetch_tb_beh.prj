@@ -1,0 +1,5 @@
+verilog work "rom.v"
+verilog work "pc_reg.v"
+verilog work "inst_fetch.v"
+verilog work "inst_fetch_tb.v"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

@@ -1,0 +1,5 @@
+MO inst_fetch_tb NULL F:\OpenMIPS_Share\OenMIPS_CPU\ProgramCounterRegister_Test\ProgramCounterRegister_Test/inst_fetch_tb.v vlg34/inst__fetch__tb.bin 1472237741
+MO rom NULL F:\OpenMIPS_Share\OenMIPS_CPU\ProgramCounterRegister_Test\ProgramCounterRegister_Test/rom.v vlg3A/rom.bin 1472237740
+MO inst_fetch NULL F:\OpenMIPS_Share\OenMIPS_CPU\ProgramCounterRegister_Test\ProgramCounterRegister_Test/inst_fetch.v vlg13/inst__fetch.bin 1472237741
+MO pc_reg NULL F:\OpenMIPS_Share\OenMIPS_CPU\ProgramCounterRegister_Test\ProgramCounterRegister_Test/pc_reg.v vlg48/pc__reg.bin 1472237740
+MO glbl NULL C:/Xilinx/verilog/src/glbl.v vlg2D/glbl.bin 1472237741

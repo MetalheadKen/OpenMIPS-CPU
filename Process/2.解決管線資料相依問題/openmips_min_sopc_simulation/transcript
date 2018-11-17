@@ -1,0 +1,47 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of regfile.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim -gui F:\OpenMIPS_Share\OenMIPS_CPU\Five_Stages_PipeLine\openmips_min_sopc_simulation\openmips_min_sopc.mpf 
+# Start time: 19:55:29 on Sep 05,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/rst
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/if_id0/if_inst
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]}
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 1195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+quit -sim

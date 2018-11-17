@@ -1,0 +1,6 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# error: Layout::Clairvoyance can't read "map(„)": no such element in array
+# can't read "map(„)": no such element in array
+#     while executing
+# "Layout::Clairvoyance"
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/11.„zload¯ùOL/openmips_min_sopc_simulation/openmips_min_sopc.mpf

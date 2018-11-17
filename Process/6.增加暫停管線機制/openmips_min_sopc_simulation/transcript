@@ -1,0 +1,37 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of defines.v was successful.
+# Compile of ex.v failed with 14 errors.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v failed with 9 errors.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# Compile of ctrl.v was successful.
+# 16 compiles, 2 failed with 23 errors.
+# Compile of ctrl.v was successful.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 16 compiles, 0 failed with no errors.

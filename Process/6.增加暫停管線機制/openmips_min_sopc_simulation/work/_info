@@ -1,0 +1,310 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/altera/15.0
+vctrl
+!s110 1473355008
+!i10b 1
+!s100 ka=:>8`Ud7W9aWFYAKLL>0
+ICfCb6e:f4VA`ZH`nkg=cC1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dF:/OpenMIPS_Share/openmips_min_sopc_simulation
+w1473269906
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/ctrl.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/ctrl.v
+L0 4
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1473355008.640000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ctrl.v|
+!i113 1
+Z3 o-work work
+vex
+Z4 !s110 1473355009
+!i10b 1
+!s100 bLJXi[`2]H69`_a^SkiPM1
+IVQMcd:a5T6ni@VOT5@ikV2
+R0
+R1
+w1473274860
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/ex.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355009.102000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex.v|
+!i113 1
+R3
+vex_mem
+R4
+!i10b 1
+!s100 9mZgX[dDPhXb1CjEA^5;01
+Il=W3@=KP@SMdPY:Tan_cX1
+R0
+R1
+w1473275611
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex_mem.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/ex_mem.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355009.346000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/ex_mem.v|
+!i113 1
+R3
+vhilo_reg
+R4
+!i10b 1
+!s100 PT0L^9MC>`0kISFeHF:MV1
+I27QWE1]<?zFNVXmce9cDb0
+R0
+R1
+w1473079786
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/hilo_reg.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/hilo_reg.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355009.583000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/hilo_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/hilo_reg.v|
+!i113 1
+R3
+vid
+R4
+!i10b 1
+!s100 kE7?HP1;=U@bhzMRK2dAX2
+Ibl:o?AUPMEDFM]ALSGAm>1
+R0
+R1
+w1473275797
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/id.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/id.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1473355009.799000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/id.v|
+!i113 1
+R3
+vid_ex
+Z5 !s110 1473355010
+!i10b 1
+!s100 1AA[lVCQ8fY0:2F<K^5>j1
+ITFm^c6X8X3FAA]kHPZUS?3
+R0
+R1
+w1473275100
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/id_ex.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/id_ex.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355010.037000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/id_ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/id_ex.v|
+!i113 1
+R3
+vif_id
+R5
+!i10b 1
+!s100 Z4IVLZXlY@X4]2Pm2acg50
+IUC1CYT7d0G6jShjZYXS;i2
+R0
+R1
+w1473275099
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/if_id.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/if_id.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355010.244000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/if_id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/if_id.v|
+!i113 1
+R3
+vinst_rom
+R5
+!i10b 1
+!s100 =KMnZ6?[Mh];Y0o]:ZgdV2
+In]i:9NEZ3=4=f^AO2[iA23
+R0
+R1
+w1472804902
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/inst_rom.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/inst_rom.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355010.699000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/inst_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/inst_rom.v|
+!i113 1
+R3
+vmem
+R5
+!i10b 1
+!s100 @5Y]R3zf1PX3F:S2M>6f63
+IlGhW^4UN2B155TQz6Pbg?1
+R0
+R1
+w1473089979
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/mem.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355010.919000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem.v|
+!i113 1
+R3
+vmem_wb
+Z6 !s110 1473355011
+!i10b 1
+!s100 cz>GMX_?h@PgDlA3IGWe21
+IkZ2O3i9PNkgfjiLOf:j[62
+R0
+R1
+w1473278526
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem_wb.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/mem_wb.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355011.153000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem_wb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/mem_wb.v|
+!i113 1
+R3
+vopenmips
+R6
+!i10b 1
+!s100 _f`e;0lU4VI8VL;[m5CP13
+IVm>TOljHU0Z^Qb?9J9So[3
+R0
+R1
+w1473277894
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355011.391000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips.v|
+!i113 1
+R3
+vopenmips_min_sopc
+R6
+!i10b 1
+!s100 Jj?U47jkL>Ub8:`MM?2A>2
+IGYR:T?<:ZShdGfWB:gfZT2
+R0
+R1
+w1472807872
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355011.627000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc.v|
+!i113 1
+R3
+vopenmips_min_sopc_tb
+R6
+!i10b 1
+!s100 HKo@D3gbLQCSPiETGK1AJ3
+IH@IPGO^@^XmP^clT?lQVj3
+R0
+R1
+w1473190404
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc_tb.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc_tb.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1473355011.852000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/openmips_min_sopc_tb.v|
+!i113 1
+R3
+vpc_reg
+Z7 !s110 1473355012
+!i10b 1
+!s100 2[BVSVf8gH;eLLFUz<KFz3
+InJATbUR8JS0g:AIWU_GL03
+R0
+R1
+w1473278475
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/pc_reg.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/pc_reg.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1473355012.109000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/pc_reg.v|
+!i113 1
+R3
+vregfile
+R7
+!i10b 1
+!s100 @aHJ506P6S:HYoBG;dC@30
+IbOlJlUfdeG[mEHEi9BzC`0
+R0
+R1
+w1472922304
+8F:/OpenMIPS_Share/openmips_min_sopc_simulation/regfile.v
+FF:/OpenMIPS_Share/openmips_min_sopc_simulation/regfile.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1473355012.335000
+!s107 defines.v|F:/OpenMIPS_Share/openmips_min_sopc_simulation/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/OpenMIPS_Share/openmips_min_sopc_simulation/regfile.v|
+!i113 1
+R3

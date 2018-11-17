@@ -1,0 +1,3 @@
+MO rom NULL rom.v vlg3A/rom.bin 1472735919
+MO inst_fetch NULL inst_fetch.v vlg13/inst__fetch.bin 1472735919
+MO pc_reg NULL pc_reg.v vlg48/pc__reg.bin 1472735919

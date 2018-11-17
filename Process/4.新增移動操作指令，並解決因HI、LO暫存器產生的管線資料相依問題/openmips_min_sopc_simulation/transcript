@@ -1,0 +1,102 @@
+# Reading F:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc.mpf
+# Loading project openmips_min_sopc
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v failed with 1 errors.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 1 failed with 1 error.
+# Compile of defines.v was successful.
+# Compile of ex.v was successful.
+# Compile of ex_mem.v was successful.
+# Compile of hilo_reg.v was successful.
+# Compile of id.v was successful.
+# Compile of id_ex.v was successful.
+# Compile of if_id.v was successful.
+# Compile of inst_rom.v was successful.
+# Compile of mem.v was successful.
+# Compile of mem_wb.v was successful.
+# Compile of openmips.v was successful.
+# Compile of openmips_min_sopc.v was successful.
+# Compile of openmips_min_sopc_tb.v was successful.
+# Compile of pc_reg.v was successful.
+# Compile of regfile.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.openmips_min_sopc_tb
+# vsim -gui F:\OpenMIPS_Share\OenMIPS_CPU\Five_Stages_PipeLine\openmips_min_sopc_simulation\openmips_min_sopc.mpf 
+# Start time: 01:09:55 on Sep 06,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+quit -sim
+vsim work.openmips_min_sopc_tb
+# vsim 
+# Start time: 01:10:10 on Sep 06,2016
+# Loading work.openmips_min_sopc_tb
+# Loading work.openmips_min_sopc
+# Loading work.openmips
+# Loading work.pc_reg
+# Loading work.if_id
+# Loading work.id
+# Loading work.regfile
+# Loading work.id_ex
+# Loading work.ex
+# Loading work.ex_mem
+# Loading work.mem
+# Loading work.mem_wb
+# Loading work.hilo_reg
+# Loading work.inst_rom
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/rst
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/clk \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/rst
+# Error Wave Undo for wobj .main_pane.wave has not been initialized!
+#  Trace back: 
+#    <2:proc:65: ::Wave::UndoStart .main_pane.wave.interior.cs.body.pw.wf
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -position insertpoint sim:/openmips_min_sopc_tb/openmips_min_sopc0/clk sim:/openmips_min_sopc_tb/openmips_min_sopc0/rst
+# expected integer but got ""
+add wave -position insertpoint  \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[1]} \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[2]} \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[3]} \
+{sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/regfile1/regs[4]}
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o
+add wave -position insertpoint  \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/hi_o \
+sim:/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_reg0/lo_o
+run -all
+# ** Note: $stop    : F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v(22)
+#    Time: 1195 ns  Iteration: 0  Instance: /openmips_min_sopc_tb
+# Break in Module openmips_min_sopc_tb at F:/OpenMIPS_Share/OenMIPS_CPU/Five_Stages_PipeLine/openmips_min_sopc_simulation/openmips_min_sopc_tb.v line 22
+quit -sim
